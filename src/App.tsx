@@ -1,6 +1,11 @@
 import React from 'react';
+import { AdminHospitalApi } from '@boostbrothers/web-admin-api';
 import logo from './logo.svg';
 import './App.css';
+
+const api = new AdminHospitalApi();
+
+console.log(api);
 
 function App() {
   return (
