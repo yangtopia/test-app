@@ -5,7 +5,7 @@ import './App.css';
 
 const api = new AdminHospitalApi();
 
-console.log(api);
+console.log(api); //
 
 function App() {
   return (
